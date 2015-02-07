@@ -18,12 +18,29 @@ body {
 
 }
 
+/* unvisited link */
+a {
+    color: #FF0000;
+    text-decoration: none;
+
+}
+
+a:hover {
+	color: purple;
+}
+
+
 #top #links a{
 		width: 50px;
 		height: 10px;
-		border: 5px solid red;
+		border: 1px solid yellow;
+
 
 	
+}
+
+h1{
+	color: blue;
 }
 
 #top img{
