@@ -1,0 +1,51 @@
+body {
+
+
+	height: 800px;
+	background-image: url("../images/2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: right top;
+	
+
+}
+
+#top{
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+
+}
+
+#top #links a{
+		width: 50px;
+		height: 10px;
+		border: 5px solid red;
+
+	
+}
+
+#top img{
+		width: 750px;
+		height: 100px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border: 2px solid #03bbbd;
+}
+
+#mid{
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #fc6408;
+}
+
+#bottom{
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #03bbbd;
+
+}
