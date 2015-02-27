@@ -20,7 +20,7 @@ body {
 
 /* unvisited link */
 a {
-    color: #FF0000;
+    color: black;
     text-decoration: none;
 
 }
@@ -31,12 +31,25 @@ a:hover {
 
 
 #top #links a{
-		width: 50px;
-		height: 10px;
-		border: 1px solid yellow;
-
-
+		width: 150px;
+		height: 30px;
+		display: block;
+		float: left;
+		border: 5px solid #59daf0;
+		margin: 5px;
+		background-color: #59daf0;
+		font-size: 20px;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		text-align: center;
+		vertical-align: middle;
 	
+}
+
+#links{
+	
+	width: 680px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h1{
@@ -49,14 +62,30 @@ h1{
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		border: 2px solid #03bbbd;
+		
 }
 
 #mid{
 	width: 750px;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	border: 2px solid #fc6408;
+	border: 15px solid;
+	border-color: yellow;
+	background-color: white;
+
+}
+
+#health {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#health p {
+	font-family: sans-serif;
+	font-size: 14px;
 }
 
 #bottom{
@@ -65,4 +94,9 @@ h1{
 	margin-right: auto;
 	border: 2px solid #03bbbd;
 
+}
+
+
+.clean {
+		clear: both;
 }

@@ -4,6 +4,7 @@
         <title>Friendly Sunshine</title>
         <meta charset="utf-8">      
 <link href="maincss/main.css" rel="stylesheet" type="text/css">
+<link href="maincss/spirtgallery.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon"  href="images/sun1small.png">
 </head>
 
@@ -13,40 +14,66 @@
 
 <div id="top">
 	<img src="images/title1.jpg" alt="friendly sunshine banner" align="middle">
-	<h1>Finding beauty & sunshine in unexpected places</h1>
+	
 
 <div id="links">
 
 	<nav>
-		<a href="index.html">Home</a>
-		<a href="index.html">Body</a>
-		<a href="index.html">Soul</a>
-		<a href="index.html">Spirit</a>
+		<a href="index.html"><div id="aLink">Home</div></a>	
+		<a href="body.html"><div id="aLink">Health</div></a>	
+		<a href="soul.html"><div id="aLink">Stories</div></a>	
+		<a href="spirit.html"><div id="aLink">Gallery</div></a>	
+
+<div class="CLEAN"></div>
 
 	</nav>
 </div>
 
-</div>
 
 <div id="mid">
-	<p>
-		It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-	</p>
+
+	<div id="gallery">
+
+		<img src="images/galleryimages/f1.jpg">
+		<img src="images/galleryimages/f2.jpg">
+		<img src="images/galleryimages/f3.jpg">
+		<img src="images/galleryimages/f4.jpg">
+		<img src="images/galleryimages/s1.jpg">
+		<img src="images/galleryimages/s2.jpg">
+		<img src="images/galleryimages/s3.jpg">
+		<img src="images/galleryimages/s4.jpg">
+		<img src="images/galleryimages/c1.jpg">
+		<img src="images/galleryimages/c2.jpg">
+		<img src="images/galleryimages/c3.jpg">
+		<img src="images/galleryimages/c4.jpg">
+	
+	</div>
+<div class="CLEAN"></div>
 
 </div>
 
-<div id="bottom">
-			<p>
-		Test
-		<br>
-		Test
-		<br>
-		Test
-		<br>
-		Test
-		<br>
-	</p>
-</div>
+<div class="CLEAN"></div>
+
+<script type="text/javascript" src="jvs/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">	
+
+
+	function slide_slide() {	
+
+		$('#gallery img:first').delay(2000).animate({'margin-top' : '-300px'}, 1000, whenDone);
+
+	function whenDone() {	
+		$('#gallery img:first').appendTo('#gallery').css({'margin-top' : '0px'});
+		slide_slide(); 
+
+		}
+	}
+
+	slide_slide();
+
+
+</script>
+
 
 
 </body>
