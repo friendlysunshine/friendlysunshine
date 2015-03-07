@@ -14,5 +14,14 @@ function whenDone() {
 slide_slide();
 
 
+
+$("#top").click(mClick);
+
+function mClick() {
+alert("Check back for updates");
+
+}
+
+
 });
 
