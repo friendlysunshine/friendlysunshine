@@ -1,14 +1,109 @@
+@media only screen and (max-width: 640px) {
+#top img{
+		width: 290px;
+		height: 100px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover {
+	color: purple;
+}
+
+
+#top #links a{
+		width: 55px;
+		height: 30px;
+		display: block;
+		float: left;
+		border: 5px solid #59daf0;
+		margin: 5px;
+		background-color: #59daf0;
+		font-size: 16px;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		text-align: center;
+		vertical-align: middle;
+	
+}
+
+#links{
+	
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+	color: black;
+		font-size: 20px;
+	font-family: sans-serif;
+}
+
+#gallery {
+
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+
+		}
+
+#gallery img {
+
+		width: 181px;
+		height: 181px;
+		max-width: 100%;
+		border: 3px solid black;
+
+		display: block;
+		float: left;
+
+			}
+
+}
+
+@media only screen and (min-width: 641px) {
+
+
+
+
 body {
 
 
 	height: 800px;
-	background-image: url("../images/2.jpg");
+	
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-position: right top;
 	
 
 }
+
+#gallery {
+
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+
+		}
+
+#gallery img {
+
+		width: 181px;
+		height: 181px;
+		max-width: 100%;
+		border: 3px solid black;
+
+		display: block;
+		float: left;
+
+			}
 
 #top{
 	width: 750px;
@@ -17,6 +112,10 @@ body {
 	margin-top: 20px;
 
 }
+
+/*#container1 {
+	width: 26.66%;
+}*/
 
 /* unvisited link */
 a {
@@ -35,13 +134,14 @@ a:hover {
 		height: 30px;
 		display: block;
 		float: left;
-		border: 5px solid #59daf0;
+		border: 5px dotted #59daf0;
 		margin: 5px;
-		background-color: #59daf0;
+		background-color: yellow;
 		font-size: 20px;
 		font-family: "Trebuchet MS", Helvetica, sans-serif;
 		text-align: center;
 		vertical-align: middle;
+
 	
 }
 
@@ -53,7 +153,8 @@ a:hover {
 }
 
 h1{
-	color: blue;
+	color: black;
+	font-family: sans-serif;
 }
 
 #top img{
@@ -70,11 +171,13 @@ h1{
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	border: 15px solid;
-	border-color: yellow;
+
+	
 	background-color: white;
 
 }
+
+
 
 #health {
 	width: 700px;
@@ -99,4 +202,5 @@ h1{
 
 .clean {
 		clear: both;
+}
 }

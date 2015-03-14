@@ -10,6 +10,7 @@
 
 		width: 181px;
 		height: 181px;
+		max-width: 100%;
 		border: 3px solid black;
 
 		display: block;

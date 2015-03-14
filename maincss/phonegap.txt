@@ -1,0 +1,35 @@
+
+
+SocialSharing
+This plugin allows you to share text, images (and other files), or a link via the native sharing widget of your device. Android is fully supported, as well as iOS 6 and up. WP8 has somewhat limited support.
+Usage Instructions
+Add the following to your config.xml to use version 4.3.8 of this plugin (recommended):: 
+<gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8" />
+You can also omit the version tag to always use the most recent version of this plugin. Note that this will result in your app being automatically updated with new versions of this plugin as they are released, and may result in unexpected behaviour.
+
+
+
+
+
+EmailComposer
+Provides access to the standard interface that manages the editing and sending an email message
+Usage Instructions
+Add the following to your config.xml to use version 0.8.2 of this plugin (recommended):: 
+<gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.2" />
+You can also omit the version tag to always use the most recent version of this plugin. Note that this will result in your app being automatically updated with new versions of this plugin as they are released, and may result in unexpected behaviour.
+
+
+
+
+Screen Orientation
+Adds Screen Orientation API lock and unlock functions to the global screen object in android, iOS and BB10.
+Usage Instructions
+Add the following to your config.xml to use version 1.3.1 of this plugin (recommended):: 
+<gap:plugin name="net.yoik.cordova.plugins.screenorientation" version="1.3.1" />
+You can also omit the version tag to always use the most recent version of this plugin. Note that this will result in your app being automatically updated with new versions of this plugin as they are released, and may result in unexpected behaviour.
+
+
+
+
+
+I chose all 3 of these because for one I am not positive what most of the others mean. These 3 (if I am understanding them right) seem practical for any app.
